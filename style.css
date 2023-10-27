@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 960px;
+    height: 960px;
+    border: 2px solid black;
+}
+
+.blankSquare {
+    background-color: white;
+}
+
+.blankSquare.coloredSquare {
+    background-color: black;
+}
+
+#foot {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 10vh;
+    width: 20%;
+}
+
+#label {
+    font-size: 20px;
+}
+#textField {
+
+    height: 20%;
+}
+
+#clearButton {
+    height: 10vh;
+    width: 20vh;
+    font-size: 30px;
+}
